@@ -51,4 +51,4 @@ People can also like the photos with hover effects.
 The layout adapts for mobile screens using media queries.  
 ![Mobile Screenshot](./assets/Screenshot%202025-09-25%20181818.png)
 
-[Link to the Github page](https://github.com/kianmorehead11/se_project_spots)
+[Link to the website page](https://kianmorehead11.github.io/se_project_spots/)
