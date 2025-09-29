@@ -1,14 +1,11 @@
 .page {
   background-color: #fcf5e5;
-  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   min-height: 100vh;
-  padding-bottom: 30px;
+  color: #212121;
 }
 
 .page__section {
   max-width: 1280px;
   margin: 0 auto;
-  border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
-  padding-bottom: 40px;
-  gap: 20px;
 }

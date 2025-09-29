@@ -2,20 +2,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60px;
-  padding-top: 30px;
+  padding: 60px 0;
 }
 
 .footer-text {
-  font-family: "Poppins" Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-style: Regular;
+  font-style: normal;
   font-size: 16px;
   line-height: 100%;
-  letter-spacing: 0%;
   width: 104px;
-  height: 16px;
-  top: 1340px;
-  left: 668px;
   color: rgba(33, 33, 33, 0.7);
 }

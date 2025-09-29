@@ -52,3 +52,7 @@ The layout adapts for mobile screens using media queries.
 ![Mobile Screenshot](./assets/Screenshot%202025-09-25%20181818.png)
 
 [Link to the website page](https://kianmorehead11.github.io/se_project_spots/)
+
+### Spots Video
+
+[Link to the youtube page](https://www.youtube.com/watch?v=vqy-TXkR8RY)
