@@ -49,6 +49,9 @@
 }
 
 .profile__edit-btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
   cursor: pointer;
   margin-top: auto;
   opacity: 70%;
@@ -123,6 +126,7 @@
 
   .profile__column {
     align-items: center;
+    margin: 0 0 20px;
   }
 
   .profile__add-btn {
