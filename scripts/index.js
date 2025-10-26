@@ -1,5 +1,4 @@
 const editProfileBtn = document.querySelector(".profile__edit-btn");
-
 const editProfileModal = document.querySelector("#edit-profile-modal");
 const editProfileCloseBtn = editProfileModal.querySelector(".modal__close-btn");
 
@@ -20,5 +19,5 @@ newPostBtn.addEventListener("click", function () {
 });
 
 newPostCloseBtn.addEventListener("click", function () {
-  editPostModal.classList.remove("modal_is-opened");
+  newPostModal.classList.remove("modal_is-opened");
 });
