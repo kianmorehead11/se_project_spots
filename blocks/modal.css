@@ -20,6 +20,7 @@
 }
 
 .modal__container {
+  box-sizing: border-box;
   max-width: 730px;
   width: 100%;
   border-radius: 8px;
@@ -40,10 +41,14 @@
   right: 50px;
   width: 40px;
   height: 40px;
-  border: 1px;
+  border: none;
   background-color: transparent;
   cursor: pointer;
   padding: 0 0;
+}
+
+.modal__close-btn:hover {
+  opacity: 0.6;
 }
 
 .modal__title {
@@ -62,6 +67,7 @@
 }
 
 .modal__input {
+  box-sizing: border-box;
   display: block;
   margin: 8px 0 0;
   width: 100%;
@@ -70,7 +76,6 @@
   padding: 16px 12px;
   border-radius: 8px;
   border: 1px solid #21212140;
-  gap: 10px;
   font-size: 20px;
 }
 
@@ -88,6 +93,11 @@
   font-size: 16px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   cursor: pointer;
+}
+
+.modal__submit-btn:hover {
+  background-color: #000;
+  opacity: 0.9;
 }
 
 @media screen and (max-width: 627px) {
