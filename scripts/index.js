@@ -1,3 +1,11 @@
+function openModal(modal) {
+  modal.classList.add("modal_is-opened");
+}
+
+function closeModal(modal) {
+  modal.classList.remove("modal_is-opened");
+}
+
 const initialCards = [
   {
     name: "Val Thorens",
@@ -29,14 +37,6 @@ const initialCards = [
   },
 ];
 
-function openModal(modal) {
-  modal.classList.add("modal_is-opened");
-}
-
-function closeModal(modal) {
-  modal.classList.remove("modal_is-opened");
-}
-
 const editProfileBtn = document.querySelector(".profile__edit-btn");
 const editProfileModal = document.querySelector("#edit-profile-modal");
 const editProfileCloseBtn = editProfileModal.querySelector(".modal__close-btn");
@@ -56,9 +56,9 @@ editProfileBtn.addEventListener("click", () => {
   openModal(editProfileModal);
 });
 
-editProfileCloseBtn.addEventListener("click", () =>
-  closeModal(editProfileModal)
-);
+editProfileCloseBtn.addEventListener("click", () => {
+  closeModal(editProfileModal);
+});
 
 editProfileForm.addEventListener("submit", (evt) => {
   evt.preventDefault();
@@ -79,7 +79,9 @@ newPostBtn.addEventListener("click", () => {
   openModal(newPostModal);
 });
 
-newPostCloseBtn.addEventListener("click", () => closeModal(newPostModal));
+newPostCloseBtn.addEventListener("click", () => {
+  closeModal(newPostModal);
+});
 
 newPostForm.addEventListener("submit", (evt) => {
   evt.preventDefault();
