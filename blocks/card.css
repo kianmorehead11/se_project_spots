@@ -8,6 +8,12 @@
   object-fit: cover;
   display: block;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.card__image:hover {
+  opacity: 0.9;
+  transform: scale(1.01);
 }
 
 .card__content {
@@ -24,7 +30,7 @@
   border: none;
   background-color: transparent;
   background-repeat: no-repeat;
-  opacity: 40%;
+  opacity: 0.4;
   cursor: pointer;
 }
 
@@ -38,7 +44,6 @@
 }
 
 .card__like-btn_active:hover {
-  background-image: url(../images/likebtn.svg);
   opacity: 0.4;
 }
 
@@ -48,7 +53,7 @@
   width: 32px;
   height: 32px;
   top: 10px;
-  left: 371px;
+  right: 10px;
   border: none;
   background-color: transparent;
   background-repeat: no-repeat;

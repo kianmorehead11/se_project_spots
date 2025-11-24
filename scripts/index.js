@@ -84,10 +84,6 @@ function getCardElement(data) {
     openModal(previewModal);
   });
 
-  previewModalCloseBtn.addEventListener("click", () => {
-    closeModal(previewModal);
-  });
-
   return cardElement;
 }
 
@@ -144,6 +140,10 @@ newPostForm.addEventListener("submit", (evt) => {
   cardsList.prepend(cardElement);
 
   closeModal(newPostModal);
+});
+
+previewModalCloseBtn.addEventListener("click", () => {
+  closeModal(previewModal);
 });
 
 [editProfileModal, newPostModal].forEach((modal) => {
