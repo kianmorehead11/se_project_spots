@@ -10,8 +10,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 18px;
+  padding: 0 10px;
   transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal_type_preview {
+  padding: 0 16px;
 }
 
 .modal_is-opened {
