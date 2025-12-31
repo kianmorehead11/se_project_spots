@@ -101,18 +101,6 @@ function getCardElement(data) {
   return cardElement;
 }
 
-editProfileBtn.addEventListener("click", () => {
-  editProfileNameInput.value = profileNameEl.textContent;
-  editProfileDescriptionInput.value = profileDescriptionEl.textContent;
-  resetValidation(editProfileForm);
-  openModal(editProfileModal);
-});
-
-newPostBtn.addEventListener("click", () => {
-  resetValidation(newPostForm, settings);
-  openModal(newPostModal);
-});
-
 editProfileCloseBtn.addEventListener("click", () =>
   closeModal(editProfileModal)
 );
